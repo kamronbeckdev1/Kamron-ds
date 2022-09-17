@@ -1,0 +1,442 @@
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+     :root {
+        --white: #fff;
+        --text-color: #25202F;
+        --text-rang: #000000;
+        --text-ahref: #8643DC;
+        --text-paragraf: #636066;
+        --text-ozgaruvchi: #666666;
+        --text-ozgaruvchi1: #21232D;
+        --text-ozgaruvchi2: #A8A0B0;
+        --text-rsm: #FFE7F0;
+        --text-align: #CAFFE1;
+        --text-ras: #DDF5FF;
+        --text-ram: #FFEEC9;
+        --text-moz: #DBFFC3;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: var(--text-color);
+        cursor: pointer;
+    }
+    
+    h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: var(--text-color);
+        cursor: pointer;
+    }
+    
+    h4 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--text-rang);
+        cursor: pointer;
+    }
+    
+    a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration: none;
+        color: var(--text-ahref);
+        cursor: pointer;
+    }
+    
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: var(--text-paragraf);
+        cursor: pointer;
+    }
+    
+    .container {
+        width: 1110px;
+        margin: 0 auto;
+    }
+    
+    .btn {
+        padding: 15px 50px;
+        font-size: 24px;
+        line-height: 32px;
+        background: var(--text-ahref);
+        border-radius: 100px;
+        color: black;
+        border: black;
+    }
+    
+    .btn:hover {
+        background-color: black;
+        color: var(--text-ahref);
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+    .indigo-stick {
+        display: block;
+        height: 2px;
+        width: 50px;
+        margin: 10px 0 15px 0;
+        background-color: var(--text-ahref);
+        cursor: pointer;
+    }
+    
+    body {
+        width: 100%;
+        background-color: var(--white);
+    }
+    
+    .header__navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0 0 0;
+        align-items: center;
+    }
+    
+    .header__navbar-left {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav__items {
+        width: 338px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+    
+    .nav__menu ion-icon {
+        font-size: 30px;
+        padding: 23px;
+        border-radius: 50%;
+        background-color: var(--white);
+        box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
+    }
+    /* Home  */
+    
+    .home {
+        display: flex;
+    }
+    
+    .home__text-wrapper {
+        width: 50%;
+        padding: 100px 0 200px 0;
+    }
+    
+    .home__title-span {
+        font-size: 60px;
+        color: var(--text-color);
+        padding: 15px 0 20px 0;
+    }
+    
+    .home__btn {
+        display: inline-block;
+        margin: 50px 0;
+        cursor: pointer;
+    }
+    
+    .home__img-wrapper {
+        width: 50%;
+        margin-top: -70px;
+        cursor: pointer;
+    }
+    /* /Home  */
+    
+    .services__cards {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .services__card {
+        width: 350px;
+        cursor: pointer;
+    }
+    
+    .services__card-top {
+        display: flex;
+        align-items: center;
+    }
+    
+    .ta39,
+    .ta49 {
+        width: 49%;
+    }
+    
+    .ta39 img,
+    .ta49 img {
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    .ta59 {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .ion-oicon {
+        color: var(--text-ahref);
+    }
+    
+    .strelka {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .a-nexticon {
+        display: flex;
+    }
+    
+    .arrow-forward {
+        font-size: 30px;
+    }
+    
+    .dealn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 44px;
+    }
+    
+    .sykq {
+        background: #FFF7FA;
+        border: 1px solid #FFE7F0;
+        border-radius: 10px;
+        padding: 45px 45px;
+        cursor: pointer;
+    }
+    
+    .em {
+        background: #EDFFF5;
+        border: 1px solid #CAFFE1;
+        border-radius: 10px;
+        padding: 45px 45px;
+        cursor: pointer;
+    }
+    
+    .microsoft {
+        background: #F5FCFF;
+        border: 1px solid #DDF5FF;
+        border-radius: 10px;
+        padding: 45px 45px;
+        cursor: pointer;
+    }
+    
+    .havoshri {
+        background: #FFFBF2;
+        border: 1px solid #FFEEC9;
+        border-radius: 10px;
+        padding: 45px 45px;
+        cursor: pointer;
+    }
+    
+    .shopping {
+        background: #F4FFED;
+        border: 1px solid #DBFFC4;
+        border-radius: 10px;
+        padding: 45px 45px;
+        cursor: pointer;
+    }
+    
+    .estimonials {
+        display: inline;
+    }
+    
+    .testimonials {
+        background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 50%);
+        height: 722px;
+        display: flex;
+        position: relative;
+        padding: 50px 0;
+    }
+    
+    .hintstonlik {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .textquote {
+        margin: 25px 0;
+        cursor: pointer;
+    }
+    
+    .ochki {
+        position: absolute;
+        top: 256px;
+        left: 166px;
+        filter: blur(2px);
+        cursor: pointer;
+    }
+    
+    .kepka {
+        position: absolute;
+        top: 526px;
+        left: 322px;
+        filter: blur(2px);
+        cursor: pointer;
+    }
+    
+    .kal {
+        position: absolute;
+        top: 524px;
+        right: 315px;
+        filter: blur(2px);
+        cursor: pointer;
+    }
+    
+    .sariq {
+        position: absolute;
+        top: 223px;
+        right: 169px;
+        filter: blur(2px);
+        cursor: pointer;
+    }
+    
+    .m20 {
+        color: var(--text-ahref)
+    }
+    
+    .mget {
+        display: flex;
+        display: inline;
+    }
+    
+    .uchtasibitta {
+        display: flex;
+    }
+    
+    .zamon {
+        display: flex;
+        display: inline;
+        margin-left: 20px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .dizayn {
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .dizayn2 {
+        position: relative;
+        /* background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #25202F 100%); */
+        cursor: pointer;
+    }
+    
+    .bola {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    }
+    
+    .title {
+        width: 20%;
+    }
+    
+    .m22 {
+        color: var(--text-ahref);
+    }
+    
+    .m21 {
+        color: var(--text-ahref);
+    }
+    
+    .txterw {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 250px;
+        left: 20px;
+    }
+    
+    .email {
+        padding: 10px 20px;
+        border: none;
+        border-bottom: 2px solid #DAD2E3;
+        width: 100%;
+    }
+    
+    .message {
+        padding: 10px 20px;
+        border: none;
+        border-bottom: 2px solid #DAD2E3;
+        width: 100%;
+    }
+    
+    .name {
+        padding: 10px 20px;
+        border: none;
+        border-bottom: 2px solid #DAD2E3;
+        width: 100%;
+    }
+    
+    .info {
+        position: absolute;
+        left: 1060px;
+    }
+    
+    .bnt {
+        position: absolute;
+        margin-bottom: 10px;
+        left: 165px;
+        padding: 15px 50px;
+        font-size: 24px;
+        line-height: 32px;
+        background: var(--text-ahref);
+        border-radius: 100px;
+        color: black;
+        /* border: none; */
+    }
+    
+    .ntb {
+        width: 200px;
+    }
+    
+    .bnt:hover {
+        background-color: black;
+        color: var(--text-ahref);
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+    .h1h1 {
+        width: 1110px;    
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 190px;
+    }
+    
+    .marra {
+        width: 60px;
+        justify-content: space-between;
+    }
+    
+    .footer {
+        text-align: center;
+    }
